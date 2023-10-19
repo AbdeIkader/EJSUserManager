@@ -12,5 +12,4 @@ userRouter.post("/deleteUser/:id", user.deleteUser);
 userRouter.get("/updateUser/:id", user.getUpdatedUser);
 userRouter.post("/updateUser/:id", user.postUpdateUser);
 
-
-export default userRouter
+export default userRouter;

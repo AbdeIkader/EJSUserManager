@@ -14,7 +14,7 @@
   </head>
   <body>
     <%- include('navbar') -%>
-    <!-----------------------------------------------------User--------------------------------------------------------->
+    <!-----------------------------------------------------Add User--------------------------------------------------------->
 
     <div class="container">
       <form action="/addUser" method="post">
@@ -23,18 +23,21 @@
           type="text"
           class="form-control my-3"
           placeholder="Enter Your Name"
+          required
         />
         <input
           name="email"
           type="email"
           class="form-control my-3"
           placeholder="Enter Your Email"
+          required
         />
         <input
           name="password"
           type="password"
           class="form-control my-3"
           placeholder="Enter Your Password"
+          required
         />
         <button class="btn btn-outline-primary">Add User</button>
       </form>
