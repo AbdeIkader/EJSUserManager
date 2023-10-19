@@ -37,27 +37,31 @@ This project is an Express.js-based web application using EJS as the templating 
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/AbdeIkader/EJSUserManager.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd path_to_directory
-   ```
-
-3. Install dependencies:
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. Set up environment variables in a `.env` file. Ensure that you have `MODE` (dev or prod), MongoDB URI, and any other required environment variables set up.
+3. Set up environment variables in a `.env` file. Ensure that you have `MODE` (dev or prod), MongoDB URI, and any other required environment variables set up.
 
-5. Start the server:
+    ```
+    PORT=4000
+    MODE=dev
+    MONGO_URI = mongodb://127.0.0.1:27017/EJSProj
+    ```
+
+4. Start the server:
 
    ```bash
    npm start
+   // OR
+   nodemon
+   // OR
+   node index.js
    ```
 
 ## Endpoints:
@@ -74,14 +78,14 @@ This project is an Express.js-based web application using EJS as the templating 
 
 The application uses custom error handling mechanisms to deal with exceptions and errors. The `globalErrorHandling` middleware is utilized for handling errors across the application. Additionally, the `AppError` class is used for creating custom error objects, and the `catchAsyncError` utility helps in dealing with asynchronous code errors.
 
+## Contribution:
+
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
 ## License:
 
-ISC
+The content of this project itself is licensed under the [ISC License](https://opensource.org/licenses/ISC) and the underlying source code used to format and display that content is licensed under the MIT License.
 
-## Author:
+## Contact:
 
-[Your Name]
-
----
-
-Feel free to use and adapt this README as per the additional features or details of your project.
+If you have any questions or suggestions, feel free to reach out to me at [email@example.com](abdelrahmanabdelkader2002@gmail.com) or through my [LinkedIn](https://www.linkedin.com/in/abdelrahman-abdelkader-259781215/).
