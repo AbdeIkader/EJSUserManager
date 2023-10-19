@@ -2,6 +2,9 @@
 
 body{
     background-color: #131722;
-    color:#fff;
     font-family: 'Montserrat Alternates'
+}
+th,td{
+    background-color: #131722 !important;
+    color: aliceblue !important;
 }
