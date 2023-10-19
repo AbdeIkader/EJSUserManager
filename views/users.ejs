@@ -33,9 +33,13 @@
             <td><%= result[i].name %></td>
             <td><%= result[i].email %></td>
             <td><%= result[i].password %></td>
-            <td>
-              <button class="btn btn-outline-danger">Delete</button>
-              <button class="btn btn-outline-warning">Update</button>
+            <td class="d-flex justify-content-center">
+              <form action="deleteUser/<%=result[i]._id%>" method="post">
+                <button class="btn btn-outline-danger">Delete</button>
+              </form>
+              <form action="updateUser/<%=result[i]._id%>" method="get">
+                <button class="btn btn-outline-warning">Update</button>
+              </form>
             </td>
           </tr>
           <% } %>
