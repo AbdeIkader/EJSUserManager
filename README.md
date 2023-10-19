@@ -88,4 +88,4 @@ The content of this project itself is licensed under the [ISC License](https://o
 
 ## Contact:
 
-If you have any questions or suggestions, feel free to reach out to me at [email@example.com](abdelrahmanabdelkader2002@gmail.com) or through my [LinkedIn](https://www.linkedin.com/in/abdelrahman-abdelkader-259781215/).
+If you have any questions or suggestions, feel free to reach out to me at [abdelrahmanabdelkader2002@gmail.com] or through my [LinkedIn](https://www.linkedin.com/in/abdelrahman-abdelkader-259781215/).
