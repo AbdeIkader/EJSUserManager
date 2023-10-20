@@ -16,7 +16,7 @@ const about = catchAsyncError(async (req, res) => {
   res.render("about.ejs");
 });
 
-const addUser = catchAsyncError(async (req, res,next) => {
+const addUser = catchAsyncError(async (req, res, next) => {
   const { email } = req.body;
   let isExist = await userModel.findOne({ email });
   if (isExist) {

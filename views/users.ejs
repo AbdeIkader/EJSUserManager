@@ -21,10 +21,11 @@
     <div class="container mt-5 text-center">
       <table class="table">
         <thead>
-          <th>#</th>
+          <th>ID</th>
           <th>Name</th>
           <th>Email</th>
-          <th>Password</th>
+          <th>Phone</th>
+          <th>Salary</th>
           <th>Actions</th>
         </thead>
 
@@ -34,7 +35,8 @@
             <td><%= i + 1 %></td>
             <td><%= result[i].name %></td>
             <td><%= result[i].email %></td>
-            <td><%= result[i].password %></td>
+            <td><%= result[i].phone %></td>
+            <td><%= result[i].salary %></td>
             <td class="d-flex justify-content-center">
               <form action="deleteUser/<%=result[i]._id%>" method="post">
                 <button class="btn btn-outline-danger">Delete</button>

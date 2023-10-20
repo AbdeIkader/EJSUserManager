@@ -16,7 +16,13 @@
     <!-----------------------------------------------------Navbar--------------------------------------------------------->
     <%- include('navbar') -%>
 
+
     <!-----------------------------------------------------Update User--------------------------------------------------------->
+
+
+    <div class="d-flex justify-content-center align-items-center">
+      <img src="../images/photo.png" alt="" class="center-image">
+    </div>
 
     <div class="container">
       <form action="/updateUser/<%=result._id %>" method="post">
@@ -35,11 +41,18 @@
           value="<%=result.email %>"
         />
         <input
-          name="password"
-          type="password"
+          name="phone"
+          type="tel"
           class="form-control my-3"
-          placeholder="Enter Your Password"
-          value="<%=result.password %>"
+          placeholder="Enter Your Phone"
+          value="<%=result.phone %>"
+        />
+        <input
+          name="salary"
+          type="number"
+          class="form-control my-3"
+          placeholder="Enter Your Salary"
+          value="<%=result.salary %>"
         />
         <button class="btn btn-outline-primary">Update User</button>
       </form>

@@ -13,7 +13,7 @@ This project is an Express.js-based web application using EJS as the templating 
 
 ```
 |-- DB               // Contains user model
-|-- public           // Contains static assets like CSS and JS
+|-- public           // Contains static assets like CSS and JS and IMAGES
 |-- views            // EJS templates for rendering views
 |-- src
     |-- middlewares  // Custom middleware functions
@@ -88,4 +88,4 @@ The content of this project itself is licensed under the [ISC License](https://o
 
 ## Contact:
 
-If you have any questions or suggestions, feel free to reach out to me at [abdelrahmanabdelkader2002@gmail.com] or through my [LinkedIn](https://www.linkedin.com/in/abdelrahman-abdelkader-259781215/).
+If you have any questions or suggestions, feel free to reach out to me at [Gmail](abdelrahmanabdelkader2002@gmail.com) or through my [LinkedIn](https://www.linkedin.com/in/abdelrahman-abdelkader-259781215/).
