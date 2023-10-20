@@ -4,9 +4,9 @@ export const dbConnection = async () => {
   return await mongoose
     .connect(process.env.MONGO_URI)
     .then(() => {
-      console.log("DB Connected");
+      console.log("DB Connected Succesfully");
     })
     .catch(() => {
-      console.log("DB Not connected");
+      console.log("DB is not connected");
     });
 };
