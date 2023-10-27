@@ -8,3 +8,7 @@ th,td{
     background-color: #061528 !important;
     color: aliceblue !important;
 }
+
+.img-fluid {
+    max-width: 75% !important;
+}
